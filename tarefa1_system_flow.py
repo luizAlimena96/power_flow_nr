@@ -306,3 +306,4 @@ print("\nNEWTON-RAPHSON METHOD")
 print("Voltages (magnitude and angle) after convergence:")
 for i, bus in enumerate(buses):
     print(f"Bus {bus['num']}: |V| = {V_nr[i]:.4f} p.u., θ = {delta_nr[i]:.4f}°")
+    
